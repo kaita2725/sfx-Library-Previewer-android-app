@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">UTS_35715</string>
+    <string name="sfx_string">SFX Library and Previewer</string>
+    <string name="Profile">PROFILE</string>
+    <string name="Library">LIBRARY</string>
+    <string name="Log">LOGIN PAGE</string>
+    <string name="Display">Masukkan nama anda</string>
+    <string name="Next">NEXT</string>
+
+    <string name="title_1">Main Menu</string>
+    <string name="title_2">Profile</string>
+
+    <string name="sfxName">Title sfx</string>
+    <string name="desc">description</string>
+    <string name="Play">PLAY SFX</string>
+
+    <string name="Nama">Adriel Chandra</string>
+    <string name="Nim">00000035715</string>
+    <string name="Kelas">IF 570 - BL</string>
+    <string name="Ref_Title">REFERENSI</string>
+    <string name="Ref1"><a href="https://developer.android.com/guide/">Main Guide</a></string>
+    <string name="Ref2"><a href="https://www.youtube.com/watch?v=YaWmNhlOXYk">Icon Library</a></string>
+    <string name="Ref3"><a href="https://material.io/develop/android/theming/shape">Shape Modification</a></string>
+    <string name="Ref4"><a href="https://www.youtube.com/watch?v=kknBxoCOYXI">Menu in ActionBar</a></string>
+    <string name="Ref5"><a href="https://www.youtube.com/watch?v=zwabHRv2taA">ActionBar Event Listener</a></string>
+    <string name="Ref6"><a href="https://developer.android.com/guide/topics/ui/notifiers/toasts">Toasts</a></string>
+    <string name="Ref7"><a href="https://developer.android.com/jetpack/androidx/releases/recyclerview">RecycleView</a></string>
+    <string name="Ref8"><a href="https://www.geeksforgeeks.org/recyclerview-using-listview-in-android-with-example/">ListView with RecycleView</a></string>
+    <string name="Ref9"><a href="https://developer.android.com/reference/android/media/MediaPlayer">MediaPlayer</a></string>
+
+</resources>

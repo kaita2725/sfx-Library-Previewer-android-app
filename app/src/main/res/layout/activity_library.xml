@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/contraintLayout">
+
+        <ImageView
+            android:id="@+id/imgSource"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_action_name"></ImageView>
+
+        <TextView
+            android:id="@+id/sfxTitle"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/imgSource"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowRadius="5"
+            android:shadowDy="5"
+            android:shadowDx="5"
+            app:layout_constraintStart_toEndOf="@+id/imgSource"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="180dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/sfxTitle"
+            android:layout_toEndOf="@+id/imgSource"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowRadius="5"
+            android:shadowDy="5"
+            android:shadowDx="5"
+            app:layout_constraintStart_toEndOf="@+id/imgSource"
+            app:layout_constraintTop_toBottomOf="@+id/sfxTitle"></TextView>
+
+        <ImageButton
+            android:id="@+id/permaDelete"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/sfxTitle"
+            android:background="#ff0019"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_delete">
+        </ImageButton>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

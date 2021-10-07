@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peace_and_quiet"
+    android:scaleType="centerCrop"
+    android:orientation="vertical">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/Profileimg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:shapeAppearanceOverlay="@style/Circular"></com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nama"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Profileimg"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/NIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/Nim"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Kelas"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NIM"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/Ref_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref_Title"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Class"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/Ref1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref1"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref_title"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/Ref2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref2"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref1" />
+
+    <TextView
+        android:id="@+id/Ref3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref3"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref2" />
+
+    <TextView
+        android:id="@+id/Ref4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref4"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref3" />
+
+    <TextView
+        android:id="@+id/Ref5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref5"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref4" />
+
+
+    <TextView
+        android:id="@+id/Ref6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref6"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref_title" />
+
+    <TextView
+        android:id="@+id/Ref7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref7"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref6" />
+
+    <TextView
+        android:id="@+id/Ref8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref8"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref7" />
+    <TextView
+        android:id="@+id/Ref9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ref9"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ref8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
